@@ -10,7 +10,7 @@ function toggleMode() {
     img.setAttribute("alt", "Mano de óculos escuro pra não ficar cegueta")
   } else {
     //se não tiver light mode,manter a atual
-    img.setAttribute("src", "./assets/avatar.png")
-    img.setAttribute("alt", "Junin macumba esplendido")
+    img.setAttribute("src", "./assets/avatar sem óculos.png")
+    img.setAttribute("alt", "Perfil normal sem óculos")
   }
 }
