@@ -7,10 +7,10 @@ function toggleMode() {
   //se tiver light mode,oculos escuro
   if (html.classList.contains("light")) {
     img.setAttribute("src", "./assets/avatar-light.png")
-    img.setAttribute("alt", "Mano de óculos escuro pra não ficar cegueta")
+    img.setAttribute("alt", "Foto de perfil de óculos escuro")
   } else {
     //se não tiver light mode,manter a atual
-    img.setAttribute("src", "./assets/avatar sem óculos.png")
+    img.setAttribute("src", "./assets/avatar.png")
     img.setAttribute("alt", "Perfil normal sem óculos")
   }
 }
